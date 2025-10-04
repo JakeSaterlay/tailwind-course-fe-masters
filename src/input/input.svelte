@@ -5,8 +5,9 @@
 </script>
 
 <div>
-  <label for={id}>{label}</label>
+  <label class="block font-medium text-slate-900" for={id}>{label}</label>
   <input
+    class="block w-full rounded-sm bg-white px-2 py-1 placeholder-slate-500 outline outline-slate-600 user-invalid:outline-red-600 focus:outline-2 focus:outline-blue-600"
     {id}
     aria-describedby={descriptionId}
     aria-invalid={!!error}
