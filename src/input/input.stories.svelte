@@ -50,13 +50,11 @@
       },
       pattern: {
         control: 'text',
-        description:
-          'Regular expression pattern that the input value must match',
+        description: 'Regular expression pattern that the input value must match',
       },
       title: {
         control: 'text',
-        description:
-          'Tooltip text displayed when hovering over the input field',
+        description: 'Tooltip text displayed when hovering over the input field',
       },
       min: {
         control: 'number',
